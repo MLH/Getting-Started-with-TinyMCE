@@ -33,9 +33,7 @@ Let’s add some HTML into our index.html file:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TinyMCE AI Assistant</title>
   <script src="https://cdn.tiny.cloud/1/{YOUR_TINYMCE_API_KEY}/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </head>
 
 <body>
