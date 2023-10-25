@@ -92,7 +92,7 @@ Here are the parameters that need to be included with every request.
 
 * **Max Tokens**– this limits the number of text tokens ChatGPT returns to the person asking the question. There are limits on tokens, so lower numbers can potentially support more questions.
 
-Let’s put some of that new found wisdom to use! Plug in the following code in your **script.js** file. 
+Let’s put some of that new found wisdom to use! Plug in the following code to your **script.js** file. 
 
 ```js
 height: '700px', 
@@ -123,11 +123,11 @@ height: '700px',
 );
 ```
 
-You’ll notice that we have an API_KEY variable that will need to be instantiated at the top of your **script.js** file. Once again, this is simply for demo purposes, and you should use an environment variable to hide this data when you push to production.  \
- \
-<i>If you want to learn more about using ‘dotenv’ head over to [https://hackp.ac/dotenv-instructions](https://hackp.ac/dotenv-instructions),</i>
+You’ll notice that we have an API_KEY variable that will need to be instantiated at the top of your **script.js** file. Once again, this is simply for demo purposes, and you should use an environment variable to hide this data when you push to production. 
 
-For now, you can instantiate a _const _variable that stores your **API_KEY** value.
+<i>If you want to learn more about using ‘dotenv’ head over to [https://hackp.ac/dotenv-instructions](https://hackp.ac/dotenv-instructions).</i>
+
+For now, you can instantiate a <i>const</i> variable that stores your **API_KEY** value.
 
 ```js
 const API_KEY = "replace this with your API key" 
@@ -166,7 +166,7 @@ Let’s launch our application via localhost and check it out. It should look so
 
 <img src="tinymce_blog_photos/tinymce2.png" height="50%">
 
-If you’ve properly configured your API_KEY and have an OpenAI account with a $5 credit, you’ll be able to ask your AI Assistant pretty much anything! 
+If you’ve properly configured your API_KEY and have an OpenAI account with your $5 credit / 3-month trial, you’ll be able to ask your AI Assistant pretty much anything! 
 
 <img src="tinymce_blog_photos/tinymce3.png" height="50%">
 
