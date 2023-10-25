@@ -1,6 +1,5 @@
 <h2>Build a ChatGPT Powered AI Assistant with TinyMCE in Minutes! </h2>
 
-
 TinyMCE is a great way to integrate any text-based functionality into an existing application. Today we’re going to learn how to build an AI Assistant using TinyMCE and OpenAI.  \
  \
 **<span style="text-decoration:underline;">What to expect: </span>**
@@ -78,20 +77,20 @@ All of those TinyMCE plugins and toolbar features are doing a lot under the hood
 
 Now that we’ve got our TinyMCE component set up, we’re going to add some code that allows us to use ChatGPT functionality via OpenAI.
 
-<h4>Understanding ChatGPT parameters</h4>
+<h3>Understanding ChatGPT parameters</h3>
 
 
 ChatGPT accepts 4 primary parameters that will dictate how your application generates responses to your prompts. 
 
 Here are the parameters that need to be included with every request. 
 
-**Model** – the specific AI model, (or algorithm) that’s trained to interpret the meaning of data and return a logical response when prompted.
+* **Model** – the specific AI model, (or algorithm) that’s trained to interpret the meaning of data and return a logical response when prompted.
 
-**Prompt** –  the actual request to ChatGPT in a string format.
+* **Prompt** –  the actual request to ChatGPT in a string format.
 
-**Temperature** – this integer indicates how high the random factor in the ChatGPT algorithm should be (a range of 0-2), with lower numbers in the range creating less random and more deterministic responses.
+* **Temperature** – this integer indicates how high the random factor in the ChatGPT algorithm should be (a range of 0-2), with lower numbers in the range creating less random and more deterministic responses.
 
-**Max Tokens**– this limits the number of text tokens ChatGPT returns to the person asking the question. There are limits on tokens, so lower numbers can potentially support more questions.
+* **Max Tokens**– this limits the number of text tokens ChatGPT returns to the person asking the question. There are limits on tokens, so lower numbers can potentially support more questions.
 
 Let’s put some of that new found wisdom to use! Plug in the following code in your **script.js** file. 
 
